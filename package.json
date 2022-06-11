@@ -1,0 +1,71 @@
+{
+  "name": "ranni",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@better-scroll/core": "^2.4.2",
+    "@better-scroll/scroll-bar": "^2.4.2",
+    "alipay-sdk": "^3.2.0",
+    "axios": "^0.26.1",
+    "better-scroll": "^2.4.2",
+    "core-js": "^3.6.5",
+    "echarts": "^5.3.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "koa-session": "^6.2.0",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15",
+    "qs": "^6.10.3",
+    "stylus-loader": "^4.3.3",
+    "vee-validate": "^3.4.14",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.4.1",
+    "vue-responsive-video-background-player": "^2.2.1",
+    "vue-router": "^3.5.3",
+    "vue-videobg": "^2.0.0",
+    "vuetify": "^2.6.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@mdi/font": "^6.7.96",
+    "@mdi/js": "^6.5.95",
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.7",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
